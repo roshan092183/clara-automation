@@ -1,0 +1,83 @@
+{
+  "business_hours": {
+    "old": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "start": "8 AM",
+      "end": "6 PM",
+      "timezone": "Mountain"
+    },
+    "new": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "start": "8 AM",
+      "end": "8 PM",
+      "timezone": "Mountain"
+    }
+  },
+  "services_supported": {
+    "old": [
+      "Home Security Installation",
+      "Alarm Monitoring Services",
+      "Security Camera Installation",
+      "Smart Lock Setup"
+    ],
+    "new": [
+      "Home Security Installation",
+      "Alarm Monitoring Services",
+      "Security Camera Installation",
+      "Smart Lock Setup",
+      "Smart Doorbell Installation",
+      "Remote Surveillance Setup Services"
+    ]
+  },
+  "emergency_definition": {
+    "old": [
+      "Active Alarm Triggers",
+      "Security System Failures During Break-Ins",
+      "Camera System Outages"
+    ],
+    "new": [
+      "Active Alarm Triggers",
+      "Security System Failures During Break-Ins",
+      "Camera System Outages",
+      "Remote Monitoring Failures",
+      "Alarm Network Outages"
+    ]
+  },
+  "emergency_routing_rules": {
+    "old": {
+      "call_order": [
+        {
+          "role": "On-Call Security Technician",
+          "phone_number": ""
+        }
+      ],
+      "fallback": "Escalate The Issue To The Security Operations Manager"
+    },
+    "new": {
+      "call_order": [
+        {
+          "role": "Senior Security Technician",
+          "phone_number": ""
+        }
+      ],
+      "fallback": "Escalate The Issue To The Security Operations Manager And Trigger An Urgent Alert"
+    }
+  },
+  "after_hours_flow_summary": {
+    "old": "After Hours Emergencies Are Routed To On-Call Security Technician. If Unavailable, Escalate The Issue To The Security Operations Manager",
+    "new": "After Hours Emergencies Are Routed To Senior Security Technician. If Unavailable, Escalate The Issue To The Security Operations Manager And Trigger An Urgent Alert"
+  }
+}

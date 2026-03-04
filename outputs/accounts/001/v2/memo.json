@@ -1,0 +1,59 @@
+{
+  "account_id": "001",
+  "company_name": "Brightflow Plumbing Services",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "start": "7 AM",
+    "end": "7 PM",
+    "timezone": "Central"
+  },
+  "office_address": "Now 245 Lakeview Drive, Dallas, Texas, 75201",
+  "services_supported": [
+    "Residential Plumbing",
+    "Commercial Plumbing",
+    "Drain Cleaning",
+    "Water Heater Installation",
+    "Sewer Line Repair",
+    "Whole-Home Repiping Services"
+  ],
+  "emergency_definition": [
+    "Burst Pipes",
+    "Severe Water Leaks",
+    "Gas Leaks",
+    "Flooding",
+    "Sewer Backups"
+  ],
+  "emergency_routing_rules": {
+    "call_order": [
+      {
+        "role": "Senior On-Call Technician",
+        "phone_number": ""
+      }
+    ],
+    "fallback": "Escalate The Issue To The Operations Manager And Send An Urgent Sms Alert"
+  },
+  "non_emergency_routing_rules": {
+    "during_business_hours": "Handled By The Front Desk Team",
+    "after_hours": "Recorded And Scheduled For The Next Business Day"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 20,
+    "max_retries": 1,
+    "failure_message": "Escalate The Issue To The Operations Manager And Send An Urgent Sms Alert"
+  },
+  "integration_constraints": [
+    "Create Sprinkler System Jobs In Servicetrade"
+  ],
+  "after_hours_flow_summary": "After Hours Emergencies Are Routed To Senior On-Call Technician. If Unavailable, Escalate The Issue To The Operations Manager And Send An Urgent Sms Alert",
+  "office_hours_flow_summary": "The Receptionist Should Greet The Caller, Identify The Issue, Collect The Caller\u2019S Name, Phone Number, And Service Address, And Route The Request To The Scheduling Coordinator",
+  "questions_or_unknowns": [],
+  "notes": "Generated using rule-based extraction. Manual review recommended.",
+  "phone_number": "214-555-0198"
+}

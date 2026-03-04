@@ -1,0 +1,57 @@
+{
+  "account_id": "002",
+  "company_name": "Apex Hvac Services",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "start": "8 AM",
+    "end": "7 PM",
+    "timezone": "Eastern"
+  },
+  "office_address": "512 Industrial Avenue, Charlotte, North Carolina",
+  "services_supported": [
+    "Air Conditioning Repair",
+    "Heating System Installation",
+    "Furnace Maintenance",
+    "Indoor Air Quality Services",
+    "Duct Cleaning",
+    "Thermostat Installation Services"
+  ],
+  "emergency_definition": [
+    "No Heating During Winter",
+    "Complete Ac Failure During Extreme Heat",
+    "Gas Furnace Malfunctions",
+    "Refrigerant Leaks",
+    "Electrical Failures In Hvac Systems"
+  ],
+  "emergency_routing_rules": {
+    "call_order": [
+      {
+        "role": "Senior On-Call Technician Instead Of  Regular Technician",
+        "phone_number": ""
+      }
+    ],
+    "fallback": "Escalate The Issue To The Operations Manager And Send An Urgent Sms Notification"
+  },
+  "non_emergency_routing_rules": {
+    "during_business_hours": "Scheduled By The Customer Service Team",
+    "after_hours": ""
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 20,
+    "max_retries": 1,
+    "failure_message": "Escalate The Issue To The Operations Manager And Send An Urgent Sms Notification"
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "After Hours Emergencies Are Routed To Senior On-Call Technician Instead Of  Regular Technician. If Unavailable, Escalate The Issue To The Operations Manager And Send An Urgent Sms Notification",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [],
+  "notes": "Generated using rule-based extraction. Manual review recommended.",
+  "phone_number": "704-555-1182"
+}

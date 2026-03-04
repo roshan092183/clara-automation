@@ -1,0 +1,13 @@
+Hello, this is an update for Apex HVAC Services.
+
+We have extended our hours and are now open Monday through Saturday from 8 AM to 7 PM Eastern Time.
+
+We now also provide duct cleaning and thermostat installation services.
+
+Emergency situations now include refrigerant leaks and electrical failures in HVAC systems.
+
+After hours emergency calls should now be routed to the senior on-call technician instead of the regular technician.
+
+If there is no response, escalate the issue to the operations manager and send an urgent SMS notification.
+
+Our office has moved to 880 Commerce Street, Charlotte, North Carolina.

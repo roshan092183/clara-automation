@@ -1,0 +1,108 @@
+{
+  "business_hours": {
+    "old": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "start": "8 AM",
+      "end": "6 PM",
+      "timezone": "Central"
+    },
+    "new": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "start": "7 AM",
+      "end": "7 PM",
+      "timezone": "Central"
+    }
+  },
+  "office_address": {
+    "old": "245 Lakeview Drive In Dallas, Texas",
+    "new": "Now 245 Lakeview Drive, Dallas, Texas, 75201"
+  },
+  "services_supported": {
+    "old": [
+      "Residential Plumbing",
+      "Commercial Plumbing",
+      "Drain Cleaning",
+      "Water Heater Installation"
+    ],
+    "new": [
+      "Residential Plumbing",
+      "Commercial Plumbing",
+      "Drain Cleaning",
+      "Water Heater Installation",
+      "Sewer Line Repair",
+      "Whole-Home Repiping Services"
+    ]
+  },
+  "emergency_definition": {
+    "old": [
+      "Burst Pipes",
+      "Severe Water Leaks",
+      "Gas Leaks",
+      "Flooding"
+    ],
+    "new": [
+      "Burst Pipes",
+      "Severe Water Leaks",
+      "Gas Leaks",
+      "Flooding",
+      "Sewer Backups"
+    ]
+  },
+  "emergency_routing_rules": {
+    "old": {
+      "call_order": [
+        {
+          "role": "On-Call Technician",
+          "phone_number": ""
+        }
+      ],
+      "fallback": "Send An Urgent Sms Alert And Notify The Operations Manager"
+    },
+    "new": {
+      "call_order": [
+        {
+          "role": "Senior On-Call Technician",
+          "phone_number": ""
+        }
+      ],
+      "fallback": "Escalate The Issue To The Operations Manager And Send An Urgent Sms Alert"
+    }
+  },
+  "call_transfer_rules": {
+    "old": {
+      "timeout_seconds": 20,
+      "max_retries": 1,
+      "failure_message": "Send An Urgent Sms Alert And Notify The Operations Manager"
+    },
+    "new": {
+      "timeout_seconds": 20,
+      "max_retries": 1,
+      "failure_message": "Escalate The Issue To The Operations Manager And Send An Urgent Sms Alert"
+    }
+  },
+  "after_hours_flow_summary": {
+    "old": "After Hours Emergencies Are Routed To On-Call Technician. If Unavailable, Send An Urgent Sms Alert And Notify The Operations Manager",
+    "new": "After Hours Emergencies Are Routed To Senior On-Call Technician. If Unavailable, Escalate The Issue To The Operations Manager And Send An Urgent Sms Alert"
+  },
+  "office_hours_flow_summary": {
+    "old": "Collect The Caller'S Name, Phone Number, And Service Address Before Scheduling A Technician",
+    "new": "The Receptionist Should Greet The Caller, Identify The Issue, Collect The Caller\u2019S Name, Phone Number, And Service Address, And Route The Request To The Scheduling Coordinator"
+  },
+  "phone_number": {
+    "old": null,
+    "new": "214-555-0198"
+  }
+}

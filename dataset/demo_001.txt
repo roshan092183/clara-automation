@@ -1,0 +1,14 @@
+Hi, this is BrightFlow Plumbing Services.
+Our office is located at 245 Lakeview Drive in Dallas, Texas.
+We are open Monday through Friday from 8 AM to 6 PM Central Time.
+We provide residential plumbing, commercial plumbing, drain cleaning, and water heater installation.
+During normal business hours, non-emergency calls should be handled by the front desk team. 
+The receptionist should collect the caller's name, phone number, and service address before scheduling a technician.
+After hours, non-emergency calls should be recorded and scheduled for the next business day.
+Emergencies include burst pipes, severe water leaks, gas leaks, and flooding.
+After hours, emergency calls should be transferred to the on-call technician immediately.
+If the on-call technician does not answer, send an urgent SMS alert and notify the operations manager.
+For integration rules, never automatically create sprinkler system jobs in ServiceTrade. 
+All sprinkler-related requests must be manually reviewed before dispatch.
+When handling calls during business hours, greet the caller, identify the service needed, collect the caller's name and phone number, and route the request to the scheduling team.
+For after hours emergencies, collect the caller’s name, phone number, and service address immediately before attempting the emergency transfer.

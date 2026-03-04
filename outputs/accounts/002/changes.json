@@ -1,0 +1,95 @@
+{
+  "business_hours": {
+    "old": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "start": "9 AM",
+      "end": "6 PM",
+      "timezone": "Eastern"
+    },
+    "new": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "start": "8 AM",
+      "end": "7 PM",
+      "timezone": "Eastern"
+    }
+  },
+  "services_supported": {
+    "old": [
+      "Air Conditioning Repair",
+      "Heating System Installation",
+      "Furnace Maintenance",
+      "Indoor Air Quality Services"
+    ],
+    "new": [
+      "Air Conditioning Repair",
+      "Heating System Installation",
+      "Furnace Maintenance",
+      "Indoor Air Quality Services",
+      "Duct Cleaning",
+      "Thermostat Installation Services"
+    ]
+  },
+  "emergency_definition": {
+    "old": [
+      "No Heating During Winter",
+      "Complete Ac Failure During Extreme Heat",
+      "Gas Furnace Malfunctions"
+    ],
+    "new": [
+      "No Heating During Winter",
+      "Complete Ac Failure During Extreme Heat",
+      "Gas Furnace Malfunctions",
+      "Refrigerant Leaks",
+      "Electrical Failures In Hvac Systems"
+    ]
+  },
+  "emergency_routing_rules": {
+    "old": {
+      "call_order": [
+        {
+          "role": "On-Call Hvac Technician",
+          "phone_number": ""
+        }
+      ],
+      "fallback": "Send An Urgent Sms Alert And Notify The Operations Manager"
+    },
+    "new": {
+      "call_order": [
+        {
+          "role": "Senior On-Call Technician Instead Of  Regular Technician",
+          "phone_number": ""
+        }
+      ],
+      "fallback": "Escalate The Issue To The Operations Manager And Send An Urgent Sms Notification"
+    }
+  },
+  "call_transfer_rules": {
+    "old": {
+      "timeout_seconds": 20,
+      "max_retries": 1,
+      "failure_message": "Send An Urgent Sms Alert And Notify The Operations Manager"
+    },
+    "new": {
+      "timeout_seconds": 20,
+      "max_retries": 1,
+      "failure_message": "Escalate The Issue To The Operations Manager And Send An Urgent Sms Notification"
+    }
+  },
+  "after_hours_flow_summary": {
+    "old": "After Hours Emergencies Are Routed To On-Call Hvac Technician. If Unavailable, Send An Urgent Sms Alert And Notify The Operations Manager",
+    "new": "After Hours Emergencies Are Routed To Senior On-Call Technician Instead Of  Regular Technician. If Unavailable, Escalate The Issue To The Operations Manager And Send An Urgent Sms Notification"
+  }
+}

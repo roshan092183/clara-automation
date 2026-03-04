@@ -1,0 +1,51 @@
+{
+  "account_id": "003",
+  "company_name": "Greenleaf Landscaping",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "start": "7 AM",
+    "end": "4 PM",
+    "timezone": "Pacific"
+  },
+  "office_address": "144 River Park Road, Sacramento, California",
+  "services_supported": [
+    "Lawn Maintenance",
+    "Garden Design",
+    "Irrigation System Installation",
+    "Tree Trimming"
+  ],
+  "emergency_definition": [
+    "Broken Irrigation Systems Causing Flooding",
+    "Fallen Trees Blocking Driveways"
+  ],
+  "emergency_routing_rules": {
+    "call_order": [
+      {
+        "role": "Field Supervisor",
+        "phone_number": ""
+      }
+    ],
+    "fallback": ""
+  },
+  "non_emergency_routing_rules": {
+    "during_business_hours": "",
+    "after_hours": ""
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "max_retries": null,
+    "failure_message": ""
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "After Hours Emergencies Are Routed To Field Supervisor",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [],
+  "notes": "Generated using rule-based extraction. Manual review recommended.",
+  "phone_number": "916-555-3301"
+}

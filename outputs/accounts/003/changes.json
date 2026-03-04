@@ -1,0 +1,81 @@
+{
+  "business_hours": {
+    "old": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "start": "7 AM",
+      "end": "4 PM",
+      "timezone": "Pacific"
+    },
+    "new": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "start": "7 AM",
+      "end": "6 PM",
+      "timezone": "Pacific"
+    }
+  },
+  "services_supported": {
+    "old": [
+      "Lawn Maintenance",
+      "Garden Design",
+      "Irrigation System Installation",
+      "Tree Trimming"
+    ],
+    "new": [
+      "Lawn Maintenance",
+      "Garden Design",
+      "Irrigation System Installation",
+      "Tree Trimming",
+      "New Services Including Landscape Lighting Installation",
+      "Seasonal Yard Cleanup"
+    ]
+  },
+  "emergency_definition": {
+    "old": [
+      "Broken Irrigation Systems Causing Flooding",
+      "Fallen Trees Blocking Driveways"
+    ],
+    "new": [
+      "Broken Irrigation Systems Causing Flooding",
+      "Fallen Trees Blocking Driveways",
+      "Irrigation Pipe Bursts",
+      "Hazardous Tree Damage After Storms"
+    ]
+  },
+  "emergency_routing_rules": {
+    "old": {
+      "call_order": [
+        {
+          "role": "Field Supervisor",
+          "phone_number": ""
+        }
+      ],
+      "fallback": ""
+    },
+    "new": {
+      "call_order": [
+        {
+          "role": "Senior Field Supervisor",
+          "phone_number": ""
+        }
+      ],
+      "fallback": "Notify The Operations Manager And Send A High Priority Alert"
+    }
+  },
+  "after_hours_flow_summary": {
+    "old": "After Hours Emergencies Are Routed To Field Supervisor",
+    "new": "After Hours Emergencies Are Routed To Senior Field Supervisor. If Unavailable, Notify The Operations Manager And Send A High Priority Alert"
+  }
+}

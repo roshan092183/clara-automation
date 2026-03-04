@@ -1,0 +1,16 @@
+Hello, thank you for calling Apex HVAC Services.
+
+Our office is open Monday through Friday from 9 AM to 6 PM Eastern Time.
+
+We provide air conditioning repair, heating system installation, furnace maintenance, and indoor air quality services.
+
+Emergencies include no heating during winter, complete AC failure during extreme heat, and gas furnace malfunctions.
+
+During business hours, non-emergency service requests should be scheduled by the customer service team.
+
+After hours, emergency calls should be transferred to the on-call HVAC technician.
+
+If the technician does not answer, send an urgent SMS alert and notify the operations manager.
+
+Our office address is 512 Industrial Avenue, Charlotte, North Carolina.
+Our main office phone number is 704-555-1182.

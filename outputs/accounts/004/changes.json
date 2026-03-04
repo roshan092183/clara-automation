@@ -1,0 +1,90 @@
+{
+  "business_hours": {
+    "old": {
+      "days": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "start": "10 AM",
+      "end": "7 PM",
+      "timezone": "Pacific"
+    },
+    "new": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "start": "9 AM",
+      "end": "7 PM",
+      "timezone": "Pacific"
+    }
+  },
+  "services_supported": {
+    "old": [
+      "General Dentistry",
+      "Teeth Cleaning",
+      "Cosmetic Dentistry",
+      "Dental Implants",
+      "Emergency Tooth Extractions"
+    ],
+    "new": [
+      "General Dentistry",
+      "Teeth Cleaning",
+      "Cosmetic Dentistry",
+      "Dental Implants",
+      "Emergency Tooth Extractions",
+      "Orthodontic Consultations",
+      "Pediatric Dentistry To Our Services"
+    ]
+  },
+  "emergency_definition": {
+    "old": [],
+    "new": [
+      "Broken Dental Crowns",
+      "Severe Gum Infections"
+    ]
+  },
+  "emergency_routing_rules": {
+    "old": {
+      "call_order": [
+        {
+          "role": "On-Call Dentist",
+          "phone_number": ""
+        }
+      ],
+      "fallback": "Collect The Caller'S Information And Notify The Emergency Dental Coordinator"
+    },
+    "new": {
+      "call_order": [
+        {
+          "role": "Senior On-Call Dentist",
+          "phone_number": ""
+        }
+      ],
+      "fallback": "Escalate The Situation To The Clinic Manager And Send An Urgent Message"
+    }
+  },
+  "call_transfer_rules": {
+    "old": {
+      "timeout_seconds": 20,
+      "max_retries": 1,
+      "failure_message": "Collect The Caller'S Information And Notify The Emergency Dental Coordinator"
+    },
+    "new": {
+      "timeout_seconds": 20,
+      "max_retries": 1,
+      "failure_message": "Escalate The Situation To The Clinic Manager And Send An Urgent Message"
+    }
+  },
+  "after_hours_flow_summary": {
+    "old": "After Hours Emergencies Are Routed To On-Call Dentist. If Unavailable, Collect The Caller'S Information And Notify The Emergency Dental Coordinator",
+    "new": "After Hours Emergencies Are Routed To Senior On-Call Dentist. If Unavailable, Escalate The Situation To The Clinic Manager And Send An Urgent Message"
+  }
+}

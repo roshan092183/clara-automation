@@ -1,0 +1,55 @@
+{
+  "account_id": "004",
+  "company_name": "Brightsmile Dental Clinic",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "start": "9 AM",
+    "end": "7 PM",
+    "timezone": "Pacific"
+  },
+  "office_address": "725 Maple Street, San Jose, California",
+  "services_supported": [
+    "General Dentistry",
+    "Teeth Cleaning",
+    "Cosmetic Dentistry",
+    "Dental Implants",
+    "Emergency Tooth Extractions",
+    "Orthodontic Consultations",
+    "Pediatric Dentistry To Our Services"
+  ],
+  "emergency_definition": [
+    "Broken Dental Crowns",
+    "Severe Gum Infections"
+  ],
+  "emergency_routing_rules": {
+    "call_order": [
+      {
+        "role": "Senior On-Call Dentist",
+        "phone_number": ""
+      }
+    ],
+    "fallback": "Escalate The Situation To The Clinic Manager And Send An Urgent Message"
+  },
+  "non_emergency_routing_rules": {
+    "during_business_hours": "",
+    "after_hours": ""
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 20,
+    "max_retries": 1,
+    "failure_message": "Escalate The Situation To The Clinic Manager And Send An Urgent Message"
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "After Hours Emergencies Are Routed To Senior On-Call Dentist. If Unavailable, Escalate The Situation To The Clinic Manager And Send An Urgent Message",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [],
+  "notes": "Generated using rule-based extraction. Manual review recommended.",
+  "phone_number": "408-555-7621"
+}

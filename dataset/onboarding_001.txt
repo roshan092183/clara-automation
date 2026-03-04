@@ -1,0 +1,28 @@
+Hi, this is an update for BrightFlow Plumbing Services.
+
+Our office address is now 245 Lakeview Drive, Dallas, Texas, 75201.
+The main office phone number is 214-555-0198.
+
+We are updating our business hours. 
+We are now open Monday through Saturday from 7 AM to 7 PM Central Time.
+
+We continue to provide residential plumbing, commercial plumbing, drain cleaning, and water heater installation.
+We are also adding sewer line repair and whole-home repiping services.
+
+Emergency situations now include burst pipes, severe water leaks, gas leaks, flooding, and sewer backups.
+
+Emergency calls should now be transferred to the senior on-call technician.
+
+If the senior technician does not answer, escalate the issue to the operations manager and send an urgent SMS alert.
+
+During business hours, non-emergency calls should now be routed to the scheduling coordinator.
+
+After hours, non-emergency calls should now be directed to voicemail and scheduled for the next business day.
+
+For integrations, never automatically create sprinkler system jobs in ServiceTrade.
+Sprinkler-related work orders must be reviewed manually before dispatch.
+
+During business hours the receptionist should greet the caller, identify the issue, collect the caller’s name, phone number, and service address, and route the request to the scheduling coordinator.
+
+After hours support is now limited strictly to emergency calls. 
+If the issue is not an emergency, collect the caller’s information and inform them that a technician will follow up during the next business day.

@@ -1,0 +1,57 @@
+{
+  "account_id": "005",
+  "company_name": "Safeguard Security Systems",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "start": "8 AM",
+    "end": "8 PM",
+    "timezone": "Mountain"
+  },
+  "office_address": "430 Security Plaza, Denver, Colorado",
+  "services_supported": [
+    "Home Security Installation",
+    "Alarm Monitoring Services",
+    "Security Camera Installation",
+    "Smart Lock Setup",
+    "Smart Doorbell Installation",
+    "Remote Surveillance Setup Services"
+  ],
+  "emergency_definition": [
+    "Active Alarm Triggers",
+    "Security System Failures During Break-Ins",
+    "Camera System Outages",
+    "Remote Monitoring Failures",
+    "Alarm Network Outages"
+  ],
+  "emergency_routing_rules": {
+    "call_order": [
+      {
+        "role": "Senior Security Technician",
+        "phone_number": ""
+      }
+    ],
+    "fallback": "Escalate The Issue To The Security Operations Manager And Trigger An Urgent Alert"
+  },
+  "non_emergency_routing_rules": {
+    "during_business_hours": "",
+    "after_hours": ""
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 20,
+    "max_retries": 1,
+    "failure_message": "Escalate The Issue To The Security Operations Manager"
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "After Hours Emergencies Are Routed To Senior Security Technician. If Unavailable, Escalate The Issue To The Security Operations Manager And Trigger An Urgent Alert",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [],
+  "notes": "Generated using rule-based extraction. Manual review recommended.",
+  "phone_number": "303-555-4499"
+}
