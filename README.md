@@ -32,11 +32,11 @@ The system performs two main tasks:
 ## System Architecture
 
 The pipeline processes transcripts and converts them into structured agent configurations.
-           +----------------------+
-           |   Demo Transcripts   |
-           +----------+-----------+
-                      |
-                      v
+           +----------------------+<br>
+           |   Demo Transcripts   |<br>
+           +----------+-----------+<br>
+                      |<br>
+                      v<br>
            +----------------------+
            |   Extraction Engine  |
            |   (extract_memo.py)  |
@@ -62,7 +62,10 @@ The pipeline processes transcripts and converts them into structured agent confi
            +----------------------+
            | outputs/accounts/    |
            +----------------------+
-
+![Automation Pipeline](docs/image.png)
+<p align="center">
+  <img src="docs/image.png" width="600">
+</p>
 ## Project Structure
 
 CLARA-AUTOMATION
@@ -118,24 +121,25 @@ Place demo and onboarding transcripts inside the dataset folder.
 Example:
 
 dataset/
-    demo_001.txt
+    demo_001.txt    
     onboarding_001.txt
 
 ## Run the Automation Pipeline
 
 
-Run the pipeline script:
-python scripts/run_pipeline.py
+# Run the pipeline script:
+
+**python scripts/run_pipeline.py**
 
 The pipeline will automatically:
 
--Process demo transcripts
--Generate Account Memo v1
--Generate Agent Draft Spec v1
--Process onboarding updates
--Generate Memo v2
--Generate updated Agent Draft Spec
--Produce a change log
+1.Process demo transcripts
+2.Generate Account Memo v1
+3.Generate Agent Draft Spec v1
+4.Process onboarding updates
+5.Generate Memo v2
+6.Generate updated Agent Draft Spec
+7.Produce a change log
 
 ## Output Structure
 
@@ -212,11 +216,11 @@ agent_draft_spec.json
 
 This file contains the configuration for the AI receptionist including:
 
-- greeting message
-- system prompt
-- routing rules
-- supported services
-- emergency handling behavior
+- greeting message<br>
+- system prompt<br>
+- routing rules<br>
+- supported services<br>
+- emergency handling behavior<br>
 
 ---
 
