@@ -41,37 +41,37 @@ The pipeline processes transcripts and converts them into structured agent confi
 CLARA-AUTOMATION<br>
 │<br>
 ├── dataset<br>
-│   Demo call transcripts and onboarding update transcripts<br>
+│   &nbsp;&nbsp;Demo call transcripts and onboarding update transcripts<br>
 │<br>
 ├── scripts<br>
-│   Python scripts that implement the automation pipeline<br>
+│   &nbsp;&nbsp;Python scripts that implement the automation pipeline<br>
 │<br>
 │   extract_memo.py<br>
-│       Extracts structured business information from transcripts<br>
+│       &nbsp;&nbsp;Extracts structured business information from transcripts<br>
 │<br>
 │   update_memo.py<br>
-│       Updates the existing memo when onboarding changes occur<br>
+│       &nbsp;&nbsp;Updates the existing memo when onboarding changes occur<br>
 │<br>
 │   generate_agent_config.py<br>
-│       Generates the Retell agent configuration from the memo<br>
+│       &nbsp;&nbsp;Generates the Retell agent configuration from the memo<br>
 │<br>
 │   run_pipeline.py<br>
-│       Main orchestrator that runs the full pipeline<br>
+│       &nbsp;&nbsp;Main orchestrator that runs the full pipeline<br>
 │<br>
 ├── outputs/accounts<br>
-│   Stores generated agent configurations and memo versions<br>
+│&nbsp;&nbsp;Stores generated agent configurations and memo versions<br>
 │<br>
 │   v1<br>
-│       Initial configuration generated from demo transcript<br>
+│&nbsp;&nbsp;Initial configuration generated from demo transcript<br>
 │<br>
 │   v2<br>
-│       Updated configuration generated after onboarding update<br>
+│&nbsp;&nbsp;Updated configuration generated after onboarding update<br>
 │<br>
 ├── workflows<br>
-│   Documentation describing how automation can be orchestrated<br>
+│   &nbsp;&nbsp;Documentation describing how automation can be orchestrated<br>
 │<br>
 └── README.md<br>
-    Project documentation<br>
+    &nbsp;&nbsp;Project documentation<br>
 
 ## How to Run the Pipeline
 
@@ -90,9 +90,9 @@ Place demo and onboarding transcripts inside the dataset folder.
 
 Example:
 
-dataset/
-    demo_001.txt    
-    onboarding_001.txt
+dataset/<br>
+&nbsp;&nbsp;demo_001.txt    
+&nbsp;&nbsp;onboarding_001.txt
 
 ## Run the Automation Pipeline
 
@@ -123,12 +123,12 @@ Example structure:
 outputs/accounts/<accounts>/
 
 v1/
-memo.json
-agent_draft_spec.json
+&nbsp;&nbsp;memo.json
+&nbsp;&nbsp;agent_draft_spec.json
 
 v2/
-memo.json
-agent_draft_spec.json
+&nbsp;&nbsp;memo.json
+&nbsp;&nbsp;agent_draft_spec.json
 
 changes.json
 
@@ -181,7 +181,7 @@ Create a new AI agent inside the Retell dashboard.
 The pipeline generates a file:
 
 
-agent_draft_spec.json
+**agent_draft_spec.json**
 
 
 This file contains the configuration for the AI receptionist including:
@@ -201,11 +201,11 @@ If the Retell API is available, the agent configuration can be created programma
 Example workflow:
 
 
-Generated Agent Spec
-↓
-Retell API Request
-↓
-Agent Created Automatically
+Generated Agent Spec<br>
+↓<br>
+Retell API Request<br>
+↓<br>
+Agent Created Automatically<br>
 
 
 ---
@@ -230,18 +230,17 @@ The pipeline is designed to run automatically when new call transcripts are rece
 ### Example Automation Flow
 
 
-New Transcript Received
-↓
-Automation Trigger
-↓
-Run Pipeline Script
-↓
-Extract Account Memo
-↓
-Generate Agent Draft Spec
-↓
-Store Outputs
-
+New Transcript Received<br>
+↓<br>
+Automation Trigger<br>
+↓<br>
+Run Pipeline Script<br>
+↓<br>
+Extract Account Memo<br>
+↓<br>
+Generate Agent Draft Spec<br>
+↓<br>
+Store Outputs<br>
 
 ### Automation Orchestrator Options
 
@@ -254,13 +253,13 @@ The workflow can be automated using orchestration tools such as:
 Example n8n workflow:
 
 
-File Trigger (new transcript detected)
-↓
-Execute Command
-↓
-python scripts/run_pipeline.py
-↓
-Outputs generated automatically
+File Trigger (new transcript detected)<br>
+↓<br>
+Execute Command<br>
+↓<br>
+python scripts/run_pipeline.py<br>
+↓<br>
+Outputs generated automatically<br>
 
 
 ### Current Implementation
@@ -268,7 +267,7 @@ Outputs generated automatically
 The current system uses a **Python orchestrator script**:
 
 
-scripts/run_pipeline.py
+**python scripts/run_pipeline.py**
 
 
 This script processes transcripts and executes the full pipeline automatically.
