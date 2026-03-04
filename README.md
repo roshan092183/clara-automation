@@ -6,6 +6,11 @@ The system processes demo calls to generate an initial agent configuration (v1) 
 
 The pipeline runs locally using rule-based extraction and JSON storage, ensuring the entire workflow operates without any paid APIs or services.
 
+#### VIDEO LINK : 
+Watch the project demonstration video here:
+
+[Project Demo Video](https://drive.google.com/file/d/1Vb04JBM8Acqw9vqPTcA60kbqfly0Qpaz/view?usp=sharing)
+
 ## Project Goal
 
 The goal of this project is to automatically convert call transcripts into a structured configuration for a voice AI receptionist.
