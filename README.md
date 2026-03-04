@@ -9,7 +9,7 @@ The pipeline runs locally using rule-based extraction and JSON storage, ensuring
 #### VIDEO LINK : 
 Watch the project demonstration video here:
 
-[Project Demo Video](https://drive.google.com/file/d/1Vb04JBM8Acqw9vqPTcA60kbqfly0Qpaz/view?usp=sharing)
+[Project Demo Video](https://drive.google.com/file/d/1Vb04JBM8Acqw9vqPTcA60kbqfly0Qpaz/view?usp=drive_link)
 
 ## Project Goal
 
