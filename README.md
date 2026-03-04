@@ -38,40 +38,40 @@ The pipeline processes transcripts and converts them into structured agent confi
 
 ## Project Structure
 
-CLARA-AUTOMATION
-│
-├── dataset
-│   Demo call transcripts and onboarding update transcripts
-│
-├── scripts
-│   Python scripts that implement the automation pipeline
-│
-│   extract_memo.py
-│       Extracts structured business information from transcripts
-│
-│   update_memo.py
-│       Updates the existing memo when onboarding changes occur
-│
-│   generate_agent_config.py
-│       Generates the Retell agent configuration from the memo
-│
-│   run_pipeline.py
-│       Main orchestrator that runs the full pipeline
-│
-├── outputs/accounts
-│   Stores generated agent configurations and memo versions
-│
-│   v1
-│       Initial configuration generated from demo transcript
-│
-│   v2
-│       Updated configuration generated after onboarding update
-│
-├── workflows
-│   Documentation describing how automation can be orchestrated
-│
-└── README.md
-    Project documentation
+CLARA-AUTOMATION<br>
+│<br>
+├── dataset<br>
+│   Demo call transcripts and onboarding update transcripts<br>
+│<br>
+├── scripts<br>
+│   Python scripts that implement the automation pipeline<br>
+│<br>
+│   extract_memo.py<br>
+│       Extracts structured business information from transcripts<br>
+│<br>
+│   update_memo.py<br>
+│       Updates the existing memo when onboarding changes occur<br>
+│<br>
+│   generate_agent_config.py<br>
+│       Generates the Retell agent configuration from the memo<br>
+│<br>
+│   run_pipeline.py<br>
+│       Main orchestrator that runs the full pipeline<br>
+│<br>
+├── outputs/accounts<br>
+│   Stores generated agent configurations and memo versions<br>
+│<br>
+│   v1<br>
+│       Initial configuration generated from demo transcript<br>
+│<br>
+│   v2<br>
+│       Updated configuration generated after onboarding update<br>
+│<br>
+├── workflows<br>
+│   Documentation describing how automation can be orchestrated<br>
+│<br>
+└── README.md<br>
+    Project documentation<br>
 
 ## How to Run the Pipeline
 
