@@ -122,11 +122,11 @@ Example structure:
 
 outputs/accounts/<accounts>/
 
-v1/
+v1/<br>
 &nbsp;&nbsp;memo.json
 &nbsp;&nbsp;agent_draft_spec.json
 
-v2/
+v2/<br>
 &nbsp;&nbsp;memo.json
 &nbsp;&nbsp;agent_draft_spec.json
 
