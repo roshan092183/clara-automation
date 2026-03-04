@@ -32,40 +32,10 @@ The system performs two main tasks:
 ## System Architecture
 
 The pipeline processes transcripts and converts them into structured agent configurations.
-           +----------------------+<br>
-           |   Demo Transcripts   |<br>
-           +----------+-----------+<br>
-                      |<br>
-                      v<br>
-           +----------------------+
-           |   Extraction Engine  |
-           |   (extract_memo.py)  |
-           +----------+-----------+
-                      |
-                      v
-           +----------------------+
-           |   Account Memo JSON  |
-           +----------+-----------+
-                      |
-                      v
-           +----------------------+
-           | Agent Config Builder |
-           | (generate_agent...)  |
-           +----------+-----------+
-                      |
-                      v
-           +----------------------+
-           | Agent Draft Spec     |
-           +----------+-----------+
-                      |
-                      v
-           +----------------------+
-           | outputs/accounts/    |
-           +----------------------+
-![Automation Pipeline](docs/image.png)
 <p align="center">
   <img src="docs/image.png" width="600">
 </p>
+
 ## Project Structure
 
 CLARA-AUTOMATION
